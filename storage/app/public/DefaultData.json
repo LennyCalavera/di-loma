@@ -1,0 +1,917 @@
+{
+	"diseases": [
+		{
+			"name": "Вирус Эбола",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/%D0%B0%D1%80%D0%B1%D0%BE%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B-%D0%B0%D1%80%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B-%D0%B8-%D1%84%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B/%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8-%D0%B2%D1%8B%D0%B7%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%B0%D0%BC%D0%B8-%D1%8D%D0%B1%D0%BE%D0%BB%D0%B0-%D0%B8-%D0%BC%D0%B0%D1%80%D0%B1%D1%83%D1%80%D0%B3?query=%D0%AD%D0%B1%D0%BE%D0%BB%D0%B0%20%D0%B2%D0%B8%D1%80%D1%83%D1%81#v12822214_ru"
+		},
+		{
+			"name": "Covid-19",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE-%D0%BE-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%BC-%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/covid-19/covid-19?query=covid"
+		},
+		{
+			"name": "Грипп",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/%D1%80%D0%B5%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B/%D0%B3%D1%80%D0%B8%D0%BF%D0%BF-%D0%B2%D0%B8%D1%80%D1%83%D1%81-%D0%B3%D1%80%D0%B8%D0%BF%D0%BF%D0%B0"
+		},
+		{
+			"name": "Птичий грипп",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/%D1%80%D0%B5%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B/%D0%BF%D1%82%D0%B8%D1%87%D0%B8%D0%B9-%D0%B3%D1%80%D0%B8%D0%BF%D0%BF"
+		},
+		{
+			"name": "Простуда",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE-%D0%BE-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%BC-%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%B8/%D1%80%D0%B5%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%8B/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B0?query=%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B0"
+		},
+		{
+			"name": "Синусит",
+			"description": "https://www.msdmanuals.com/ru/%D0%B4%D0%BE%D0%BC%D0%B0/%D0%B7%D0%B0%D0%B1%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%83%D1%88%D0%B5%D0%B9,-%D0%BD%D0%BE%D1%81%D0%B0-%D0%B8-%D0%B3%D0%BE%D1%80%D0%BB%D0%B0/%D0%B7%D0%B0%D0%B1%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%BE%D1%81%D0%B0-%D0%B8-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%8B%D1%85-%D0%BF%D0%B0%D0%B7%D1%83%D1%85/%D1%81%D0%B8%D0%BD%D1%83%D1%81%D0%B8%D1%82?query=%D0%93%D0%B0%D0%B9%D0%BC%D0%BE%D1%80%D0%B8%D1%82"
+		},
+		{
+			"name": "Сахарный диабет тип 1",
+			"description": "https://www.msdmanuals.com/ru/%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/%D1%8D%D0%BD%D0%B4%D0%BE%D0%BA%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BC%D0%B5%D1%82%D0%B0%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D0%B8-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D1%83%D0%B3%D0%BB%D0%B5%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D1%81%D0%B4#v29299101_ru"
+		},
+		{
+			"name": "Сахарный диабет тип 2",
+			"description": "https://www.msdmanuals.com/ru/%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/%D1%8D%D0%BD%D0%B4%D0%BE%D0%BA%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BC%D0%B5%D1%82%D0%B0%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D0%B8-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D1%83%D0%B3%D0%BB%D0%B5%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D1%81%D0%B4#v29299101_ru"
+		},
+		{
+			"name": "Болезнь Альцгеймера",
+			"description": "https://www.msdmanuals.com/ru/%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/%D1%8D%D0%BD%D0%B4%D0%BE%D0%BA%D1%80%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BC%D0%B5%D1%82%D0%B0%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D0%B8-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D1%83%D0%B3%D0%BB%D0%B5%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-%D1%81%D0%B4#v29299101_ru"
+		},
+		{
+			"name": "Ротавирус",
+			"description": "https://www.msdmanuals.com/ru/%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9/%D0%B7%D0%B0%D0%B1%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B5%D0%BB%D1%83%D0%B4%D0%BE%D1%87%D0%BD%D0%BE-%D0%BA%D0%B8%D1%88%D0%B5%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%B0/%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%8D%D0%BD%D1%82%D0%B5%D1%80%D0%B8%D1%82/%D1%80%D0%BE%D1%82%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%8D%D0%BD%D1%82%D0%B5%D1%80%D0%B8%D1%82?query=%D1%80%D0%BE%D1%82%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%BC"
+		}
+	],
+	"terms": [
+		{
+			"name": "Ребенок",
+			"minBorder": 0,
+			"maxBorder": 16
+		},
+		{
+			"name": "Молодой",
+			"minBorder": 16,
+			"maxBorder": 30
+		},
+		{
+			"name": "Средний возраст",
+			"minBorder": 30,
+			"maxBorder": 65
+		},
+		{
+			"name": "Пожилой",
+			"minBorder": 65,
+			"maxBorder": 100
+		},
+		{
+            "name": "Любой",
+			"minBorder":0,
+			"maxBorder": 100
+		},
+		{
+            "name": "Слабый",
+			"minBorder": 0,
+			"maxBorder": 25
+		},
+		{
+            "name": "Средний",
+			"minBorder": 25,
+			"maxBorder": 50
+		},
+		{
+            "name": "Сильный",
+			"minBorder": 50,
+			"maxBorder": 75
+		},
+		{
+            "name": "Очень сильный",
+			"minBorder": 75,
+			"maxBorder": 100
+		},
+        {
+            "name": "Повышенная температура",
+            "minBorder": 36,
+            "maxBorder": 38
+        },
+        {
+            "name": "Высокая температура",
+            "minBorder": 38,
+            "maxBorder": 42
+        },
+        {
+            "name": "Очень высокая температура",
+            "minBorder": 42,
+            "maxBorder": 46
+        },
+        {
+            "name": "Учащенный",
+            "minBorder": 0,
+            "maxBorder": 33
+        },
+        {
+            "name": "Частый",
+            "minBorder": 33,
+            "maxBorder": 66
+        },
+        {
+            "name": "Очень частый",
+            "minBorder": 66,
+            "maxBorder": 100
+        }
+	],
+	"symptoms": [
+		{
+			"name": "Боль в голове"
+		},
+		{
+			"name": "Боль по всему телу"
+		},
+		{
+			"name": "Потеря обоняния"
+		},
+		{
+			"name": "Слабость"
+		},
+		{
+			"name": "Одышка"
+		},
+		{
+			"name": "Кашель"
+		},
+		{
+			"name": "Температура",
+			"minBorder": 36,
+			"maxBorder": 46
+		},
+		{
+			"name": "Замутненность сознания"
+		},
+		{
+			"name": "Кровотечение"
+		},
+		{
+			"name": "Пожелтение кожи"
+		},
+		{
+			"name": "Боль в животе"
+		},
+		{
+			"name": "Диарея"
+		},
+		{
+			"name": "Нарушения речи"
+		},
+		{
+			"name": "Ухудшение памяти"
+		},
+		{
+			"name": "Бессонница"
+		},
+		{
+			"name": "Частота мочеиспусканий"
+		},
+		{
+			"name": "Обезвоживание"
+		},
+		{
+			"name": "Боль в области лица"
+		},
+		{
+			"name": "Гноение в носу"
+		},
+		{
+			"name": "Заложенность носа"
+		},
+		{
+			"name": "Боль в горле"
+		},
+		{
+			"name": "Рвота"
+		},
+		{
+			"name": "Повешенная чувствительность к свету"
+		},
+		{
+			"name": "Возраст"
+		}
+	],
+	"rules": [
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль в животе",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Боль в животе",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Пожелтение кожи",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Кровотечение",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Замутненность сознания",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Замутненность сознания",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Замутненность сознания",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Замутненность сознания",
+							"term": "Средний"
+						}
+					]
+				}
+			],
+			"disease": "Вирус Эбола",
+			"weight": 0.5
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Высокая температура"
+						},
+						{
+							"symptom": "Температура",
+							"term": "Очень высокая температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Кашель",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Кашель",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Одышка",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Слабость",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Слабость",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Потеря обоняния",
+							"term": "Любой"
+						}
+					]
+				}
+			],
+			"disease": "Covid-19",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Высокая температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль по всему телу",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Боль по всему телу",
+							"term": "Очень сильный"
+						},
+						{
+							"symptom": "Боль в голове",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Боль в голове",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Одышка",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Слабость",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Слабость",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Потеря обоняния",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Повешенная чувствительность к свету",
+							"term": "Сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "and",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Рвота",
+							"term": "Средний"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "and",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Рвота",
+							"term": "Средний"
+						}
+					]
+				}
+			],
+			"disease": "Грипп",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Высокая температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль по всему телу",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Боль по всему телу",
+							"term": "Очень сильный"
+						},
+						{
+							"symptom": "Боль в голове",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Боль в голове",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Одышка",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Слабость",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Слабость",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Потеря обоняния",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Повешенная чувствительность к свету",
+							"term": "Сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "and",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Рвота",
+							"term": "Средний"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "and",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Рвота",
+							"term": "Сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "and",
+					"subConditions": [
+						{
+							"symptom": "Одышка",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Одышка",
+							"term": "Очень сильный"
+						}
+					]
+				}
+			],
+			"disease": "Птичий грипп",
+			"weight": 0.8
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Повышенная температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль в горле",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Боль в горле",
+							"term": "Слабый"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Кашель",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Кашель",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Кашель",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Заложенность носа",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Заложенность носа",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Заложенность носа",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Слабость",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Слабость",
+							"term": "Сильный"
+						}
+					]
+				}
+			],
+			"disease": "Простуда",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Высокая температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль в голове",
+							"term": "Средний"
+						},
+						{
+							"symptom": "Боль в голове",
+							"term": "Сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Гноение в носу",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Боль в области лица",
+							"term": "Слабый"
+						},
+						{
+							"symptom": "Боль в области лица",
+							"term": "Средний"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Заложенность носа",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Заложенность носа",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Кашель",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Кашель",
+							"term": "Средний"
+						}
+					]
+				}
+			],
+			"disease": "Синусит",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Обезвоживание",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Обезвоживание",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Частота мочеиспусканий",
+							"term": "Частый"
+						},
+						{
+							"symptom": "Частота мочеиспусканий",
+							"term": "Очень частый"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Возраст",
+							"term": "Молодой"
+						}
+					]
+				}
+			],
+			"disease": "Сахарный диабет тип 1",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Обезвоживание",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Обезвоживание",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Частота мочеиспусканий",
+							"term": "Частый"
+						},
+						{
+							"symptom": "Частота мочеиспусканий",
+							"term": "Очень частый"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Средний возраст"
+						},
+						{
+							"symptom": "Возраст",
+							"term": "Пожилой"
+						}
+					]
+				}
+			],
+			"disease": "Сахарный диабет тип 2",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Пожилой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Бессонница",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Бессонница",
+							"term": "Средний"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Ухудшение памяти",
+							"term": "Любой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Нарушения речи",
+							"term": "Любой"
+						}
+					]
+				}
+			],
+			"disease": "Болезнь Альцгеймера",
+			"weight": 1
+		},
+		{
+			"conditionsOperationType": "and",
+			"conditions": [
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Возраст",
+							"term": "Ребенок"
+						},
+						{
+							"symptom": "Возраст",
+							"term": "Молодой"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Температура",
+							"term": "Высокая температура"
+						},
+						{
+							"symptom": "1Температура",
+							"term": "Очень высокая температура"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Рвота",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Рвота",
+							"term": "Очень сильный"
+						}
+					]
+				},
+				{
+					"subConditionsOperationType": "or",
+					"subConditions": [
+						{
+							"symptom": "Диарея",
+							"term": "Сильный"
+						},
+						{
+							"symptom": "Диарея",
+							"term": "Очень сильный"
+						}
+					]
+				}
+			],
+			"disease": "Ротавирус",
+			"weight": 1
+		}
+	]
+}
